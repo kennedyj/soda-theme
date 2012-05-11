@@ -12,9 +12,9 @@
         "layer0.opacity": 1.0,
         "content_margin": [3, 4, 3, 3],
         "tab_overlap": 24,
-        "tab_width": 180,
-        "tab_min_width": 40,
-        "tab_height": 28,
+        "tab_width": 20,
+        "tab_min_width": 20,
+        "tab_height": 24,
         "mouse_wheel_switch": false
     },
     {
@@ -31,7 +31,7 @@
         // Inactive tab settings
         "layer0.texture": "Theme - Soda/Soda Dark/tab-inactive.png",
         "layer0.inner_margin": [18, 4],
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 0.6,
         // Active tab setting
         "layer1.texture": "Theme - Soda/Soda Dark/tab-active.png",
         "layer1.inner_margin": [18, 4],
