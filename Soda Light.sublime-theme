@@ -397,6 +397,7 @@
     // Sidebar tree
     {
         "class": "sidebar_tree",
+        "layer0.texture": "Theme - Soda/Soda Light/linen.png",
         "row_padding": [8, 3],
         "indent": 15,
         "indent_offset": 15,
@@ -421,7 +422,7 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [110, 126, 141],
+        "color": [90, 106, 121],
         "font.bold": true,
         "shadow_color": [241, 244, 247],
         "shadow_offset": [0, 1]
@@ -436,7 +437,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [90, 103, 115],
+        "color": [20, 33, 45],
         "shadow_color": [241, 244, 247],
         "shadow_offset": [0, 1]
     },
