@@ -397,7 +397,6 @@
     // Sidebar tree
     {
         "class": "sidebar_tree",
-        "layer0.texture": "Theme - Soda/Soda Light/linen.png",
         "row_padding": [8, 3],
         "indent": 15,
         "indent_offset": 15,
