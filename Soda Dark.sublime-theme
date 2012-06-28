@@ -14,8 +14,8 @@
         "layer0.opacity": 1.0,
         "content_margin": [-13, 0, -13, -6], // left, top, right, bottom
         "tab_overlap": 25,
-        "tab_width": 180,
-        "tab_min_width": 40,
+        "tab_width": 160,
+        "tab_min_width": 20,
         "tab_height": 30,
         "mouse_wheel_switch": false
     },
@@ -59,8 +59,7 @@
         //  - Active tab state
         "class": "tab_control",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Nil/assets/dark/tabs/tab-active.png",
-        "layer1.opacity": 0.0
+        "layer0.texture": "Theme - Nil/assets/dark/tabs/tab-active.png"
     },
     {
         "class": "tab_control",

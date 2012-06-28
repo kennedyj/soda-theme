@@ -3,6 +3,7 @@
 //
 // TABS
 //
+
     // Nil Aiyn Theme Tabs
     //  - Tabset
     //  ------------------------------------------------------
@@ -13,8 +14,8 @@
         "layer0.opacity": 1.0,
         "content_margin": [-13, 0, -13, -5], // left, top, right, bottom
         "tab_overlap": 25,
-        "tab_width": 180,
-        "tab_min_width": 40,
+        "tab_width": 160,
+        "tab_min_width": 20,
         "tab_height": 30,
         "mouse_wheel_switch": false
     },
@@ -58,8 +59,7 @@
         //  - Active tab state
         "class": "tab_control",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Soda/assets/ayin/tabs/tab-active.png",
-        "layer1.opacity": 0.0
+        "layer0.texture": "Theme - Soda/assets/ayin/tabs/tab-active-new.png"
     },
     {
         "class": "tab_control",
@@ -72,7 +72,7 @@
         "class": "tab_control",
         "settings": ["highlight_modified_tabs"],
         "attributes": ["dirty", "selected"],
-        "layer0.texture": "Theme - Soda/assets/ayin/tabs/tab-active-modified.png"
+        "layer0.texture": "Theme - Soda/assets/ayin/tabs/tab-active-modified-new.png"
     },
 
 
@@ -111,6 +111,69 @@
     },
 
     // END AYIN THEME TABS
+
+    //  - Tab buttons
+    //  ------------------------------------------------------
+
+    // Tab close button
+    {
+        "class": "tab_close_button",
+        "content_margin": [0, 0],
+        // Tab close default settings
+        "layer0.texture": "Theme - Soda/light/tab-close.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0,
+        // Tab close hover settings
+        "layer1.texture": "Theme - Soda/light/tab-close-hover.png",
+        "layer1.opacity": 0.0
+    },
+    {
+        // Tab button size
+        "class": "tab_close_button",
+        "settings": ["show_tab_close_buttons"],
+        "content_margin": [8, 8]
+    },
+    {
+        // Tab close button hover
+        "class": "tab_close_button",
+        "attributes": ["hover"],
+        "layer0.opacity": 0.0,
+        "layer1.opacity": 1.0
+    },
+    // Tab dirty button
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "layer0.texture": "Theme - Soda/light/tab-dirty.png",
+        "layer0.opacity": 1.0,
+        "layer1.opacity": 0.0
+    },
+    {
+        // Tab dirty button hover
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "attributes": ["hover"],
+        "layer0.opacity": 0.0,
+        "layer1.opacity": 1.0
+    },
+    // Tab close button hidden with highlight modified flag true
+    {
+        // Tab dirty state (close button hidden)
+        "class": "tab_control",
+        "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
+        "attributes": ["dirty"],
+        "content_margin": [22, 6, 15, 4]
+    },
+    {
+        // Tab dirty button (close button hidden)
+        "class": "tab_close_button",
+        "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "content_margin": [8, 8],
+        "layer0.opacity": 1.0,
+        "layer1.opacity": 0.0
+    },
+
 
 //
 // FOLD BUTTONS
