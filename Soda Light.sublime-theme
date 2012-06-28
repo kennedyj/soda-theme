@@ -370,7 +370,6 @@
     // Sidebar tree
     {
         "class": "sidebar_tree",
-        "layer0.texture": "Theme - Soda/light/linen.png",
         "row_padding": [8, 3],
         "indent": 15,
         "indent_offset": 13,
@@ -474,8 +473,7 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Theme - Soda/light/file-dirty.png",
-        "layer0.opacity": 1.0
+        "layer0.texture": "Theme - Soda/light/file-dirty.png"
     },
     {
         "class": "close_button",
