@@ -4,9 +4,9 @@ Dark and light custom UI themes for Sublime Text 2.
 
 ## Design
 
-![Soda Light Theme](http://kennedyj.github.com/soda-theme/images/screenshots/soda-light-mod.png)
+![Soda Light Theme](http://kennedyj.github.com/soda-theme/images/screenshots/soda-light-theme.png)
 
-![Soda Dark Theme](http://kennedyj.github.com/soda-theme/images/screenshots/soda-dark-mod.png)
+![Soda Dark Theme](http://kennedyj.github.com/soda-theme/images/screenshots/soda-dark-theme.png)
 
 ## Installation
 
